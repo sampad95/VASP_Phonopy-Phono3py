@@ -21,6 +21,6 @@ if not, then make them executable using chmod command
 
 **$ chmod 777  file.sh**
 
-__4.__ If all ok then execute the .sh file(s) 
+__4.__ If all ok then execute the .sh scripts(s) 
 
 **$ ./file.sh**
