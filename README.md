@@ -1,13 +1,13 @@
 __1.__ Download and copy the shell scripts in the directory(say master-dir) where you have generated the POSCAR-n1n2n3n4n5 or POSCAR_FC2-n1n2n3n4n5 files
 using the commands 
 
-**$ phono3py -d --dim="n n n" -c POSCAR/POSCAR-unitcell**
+**$ phono3py -d --dim="p1 p2 p3" -c POSCAR/POSCAR-unitcell**
 or 
 
-**$ phono3py -d --dim-fc2="n n n" --dim="m m m" -c POSCAR/POSCAR-unitcell**
+**$ phono3py -d --dim-fc2="p1 p2 p3" --dim="m1 m2 m3" -c POSCAR/POSCAR-unitcell**
 or
 
-**$ phono3py --cutoff-pair=1 -d --dim-fc2="n n n" --dim="m m m" -c POSCAR/POSCAR-unitcell**
+**$ phono3py --cutoff-pair=1 -d --dim-fc2="p1 p2 p3" --dim="m1 m2 m3" -c POSCAR/POSCAR-unitcell**
 where POSCAR is the unit cell POSCAR file.
 
 __2.__ Copy the INCAR, KPOINTS and POTCAR files required for the calculation in the same directory (master-dir) which 
